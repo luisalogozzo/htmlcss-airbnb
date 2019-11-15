@@ -5,41 +5,48 @@
 }
 
 body {
-  width: 700px;
+  width: 100vw;
+  height: 100vh;
   margin: auto;
   padding: 10px;
+  background-color: pink;
+
 }
 
 .container {
   position: relative;
-  background-color: red;
   text-align: center;
+
+}
+
+.layover {
+  background-color: red;
 }
 
 .foto {
   height: 300px;
   width: 480px;
-  position: relative;
+  margin-bottom: 10px;
+  margin-left: 50vw;
+  transform: translate(-50%, 0);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  display: inline-block;
-  margin: 5px;
-
-
+  display: block;
+  background-color:rgba(233, 233, 240, 0);
 }
 
-.london {
+#london {
   background-image: url(../img/london.jpg);
 
 }
 
-.paris {
+#paris {
   background-image: url(../img/paris.jpg);
 
 }
 
-.berlin {
+#berlin {
   background-image: url(../img/berlin.jpg);
 
 }
