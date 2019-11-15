@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  background-color: red;
+  text-align: center;
+}
+
+.foto {
+  height: 300px;
+  width: 480px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  margin: 5px;
+
+
+}
+
+.london {
+  background-image: url(../img/london.jpg);
+
+}
+
+.paris {
+  background-image: url(../img/paris.jpg);
+
+}
+
+.berlin {
+  background-image: url(../img/berlin.jpg);
+
+}
