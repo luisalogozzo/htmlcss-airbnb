@@ -7,12 +7,15 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-image: url(../img/sfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
   position: fixed;
   top: 0;
-  background-color: grey;
+  background-color: #ffffff;
   height: 64px;
   z-index: 2;
 }
@@ -43,12 +46,12 @@ nav .menu {
 
 .menu a {
   text-decoration: none;
-  color: #fff;
+  color: #484848;
   font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   text-align: center;
 }
@@ -56,12 +59,17 @@ nav .menu {
 .layover {
   height: 300px;
   width: 480px;
+  margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .foto {
+  margin-right: 10px;
+  margin-bottom: 10px;
+
   height: 300px;
   width: 480px;
+
   /* margin-bottom: 10px;
   margin-left: 50vw;
   transform: translate(-50%, 0); */
@@ -71,9 +79,12 @@ nav .menu {
   display: inline-block;
   background-color:rgba(233, 233, 240, 0);
   border-radius: 10px;
-  border: 2px solid white;
-  box-shadow: 10px 10px 5px #dedede;
+  box-shadow: -9px 11px 15px 2px #ffffff;
+  /* box-shadow: 10px 10px 5px #dedede; */
   cursor: pointer;
+}
+.foto:hover {
+  box-shadow: none;
 }
 
 .foto:hover .layover {
@@ -137,10 +148,17 @@ nav .menu {
   margin-top: 30px;
   height: 85px;
   width: 325px;
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.02);
   border-radius: 10px;
   box-shadow: 10px 10px 5px #dedede;
   margin-left: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: none;
+
 }
 
 .soggiorni {
