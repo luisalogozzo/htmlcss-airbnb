@@ -143,15 +143,90 @@ nav .menu {
   border: 1px solid rgba(0, 0, 0, 0.02);
   border-radius: 10px;
   box-shadow: 10px 10px 5px #dedede;
-
 }
 
 .soggiorni h3 {
   position: absolute;
-  font-size: 30px;
-  transform: translate(0, -50%);
+  font-size: 16px;
+  /* transform: translate(0, -50%);
   top: 50%;
-  right: 2%;
+  right: 2%; */
   font-family: 'Roboto', sans-serif;
-  color: grey;
+  color: #484848;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 60%;
+}
+
+.esperienze {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  height: 85px;
+  width: 325px;
+  background-image: url(../img/esperienze.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #dedede;
+}
+
+.esperienze h3 {
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 60%;
+}
+
+.avventure {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  height: 85px;
+  width: 325px;
+  background-image: url(../img/avventure.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #dedede;
+}
+
+.avventure h3 {
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 60%;
+}
+
+.ristoranti {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  height: 85px;
+  width: 325px;
+  background-image: url(../img/ristoranti.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #dedede;
+}
+
+.ristoranti h3{
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 60%;
+
 }
