@@ -62,13 +62,13 @@ nav .menu {
 .foto {
   height: 300px;
   width: 480px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px;
   margin-left: 50vw;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 0); */
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  display: block;
+  display: inline-block;
   background-color:rgba(233, 233, 240, 0);
   border-radius: 10px;
   border: 2px solid white;
@@ -82,25 +82,76 @@ nav .menu {
 
 #london {
   background-image: url(../img/london.jpg);
-
+  position: relative;
 }
 
 #paris {
   background-image: url(../img/paris.jpg);
-
+  position: relative;
 }
 
 #berlin {
   background-image: url(../img/berlin.jpg);
-
+  position: relative;
 }
 
 .city-name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 30px;
   color: white;
   text-shadow: 2px 2px 4px black;
+  display: inline-block;
+}
+
+#london .london-text {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#paris .paris-text {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#berlin .berlin-text {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.explore {
+  text-align: center;
+  position: relative;
+}
+
+.soggiorni {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  height: 85px;
+  width: 325px;
+  background-image: url(../img/soggiorni.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #dedede;
+
+}
+
+.soggiorni h3 {
+  position: absolute;
+  font-size: 30px;
+  transform: translate(0, -50%);
+  top: 50%;
+  right: 2%;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
 }
