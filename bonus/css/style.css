@@ -16,14 +16,14 @@ nav {
   position: fixed;
   top: 0;
   background-color: #ffffff;
-  height: 64px;
+  height: 84px;
   z-index: 2;
 }
 
 nav .menu {
   width: 100vw;
   list-style: none;
-  line-height: 62.5px;
+  line-height: 82.5px;
   z-index: 1;
   text-align: center;
 }
@@ -51,14 +51,14 @@ nav .menu {
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: 110px;
   position: relative;
   text-align: center;
 }
 
 .layover {
-  height: 300px;
-  width: 480px;
+  height: 200px;
+  width: 380px;
   margin-right: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -67,9 +67,10 @@ nav .menu {
   margin-right: 10px;
   margin-bottom: 10px;
 
-  height: 300px;
-  width: 480px;
-
+  /* height: 300px;
+  width: 480px; */
+  height: 200px;
+  width: 380px;
   /* margin-bottom: 10px;
   margin-left: 50vw;
   transform: translate(-50%, 0); */
