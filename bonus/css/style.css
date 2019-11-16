@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: grey;
+  height: 64px;
+  z-index: 2;
+}
+
+nav .menu {
+  width: 100vw;
+  list-style: none;
+  line-height: 62.5px;
+  z-index: 1;
+  text-align: center;
+}
+
+.menu .logo {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.menu li:not(:first-child):hover {
+  border-bottom: 2px solid #ff5a5f;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin-top: 70px;
+  position: relative;
+  text-align: center;
+}
+
+.layover {
+  height: 300px;
+  width: 480px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.foto {
+  height: 300px;
+  width: 480px;
+  margin-bottom: 10px;
+  margin-left: 50vw;
+  transform: translate(-50%, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  background-color:rgba(233, 233, 240, 0);
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 10px 10px 5px #dedede;
+  cursor: pointer;
+}
+
+.foto:hover .layover {
+  display: none;
+}
+
+#london {
+  background-image: url(../img/london.jpg);
+
+}
+
+#paris {
+  background-image: url(../img/paris.jpg);
+
+}
+
+#berlin {
+  background-image: url(../img/berlin.jpg);
+
+}
+
+.city-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
